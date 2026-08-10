@@ -39,7 +39,11 @@ Scores are displayed live during gameplay, and high scores are saved persistentl
 - Integrate sound effects and background music.  
 - Create a graphical menu for start, pause, and restart options.  
 - Implement multiplayer mode or AI‑controlled snake.  
-- Visualize scores with charts or dashboards.  
+- Visualize scores with charts or dashboards
+
+
+**Overall Result: ~90%**  
+This shows the project is **well‑structured, functional, and presentation‑ready**, with room for enhancements such as **levels, sound effects, menus, and multiplayer options** to move closer to 100%.dashboards.  
 
 ---
 
