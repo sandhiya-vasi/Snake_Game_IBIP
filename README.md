@@ -102,6 +102,8 @@ python snake_game.py
 ~90% Complete
 The project is well‑structured, functional, and presentation‑ready.Enhancements such as levels, sound effects, menus, and multiplayer options can move it closer to 100%.
 
+---
+
 ##✅ Conclusion
 This project was a valuable learning experience in Python game development.
 It helped apply theoretical knowledge into practice, improve debugging skills, and understand how to organize projects for professional presentation.
