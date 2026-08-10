@@ -26,85 +26,66 @@ The **Snake Game** is a fun arcade‑style project that demonstrates **game deve
 
 ---
 
-## 📁 Project Structure
+## ⚙️ Process
 
-```text
-Snake_Game/
-│
-├── snake_game.py          # Main game file
-├── README.md              # Project documentation
-│
-└── assets/
-    ├── images/            # Game graphics
-    ├── sounds/            # Sound effects
-    └── data/              # Extra resources
+1. **Game Design** → Defined game rules, scoring system, and difficulty levels.
+2. **Development** → Implemented snake movement, food spawning, and collision detection.
+3. **UI/UX** → Added menu screen, start button, restart button, and difficulty selection.
+4. **Testing** → Tested gameplay, controls, collision detection, and smooth rendering.
+5. **Version Control** → Managed project updates using Git and GitHub.
 
 ---
 
-## ⚙️ Process
-1. **Game Design** → Defined rules, scoring system, and difficulty levels.  
-2. **Development** → Implemented snake movement, food spawning, and collision detection.  
-3. **UI/UX** → Added menu screen, restart button, and difficulty selection.  
-4. **Testing** → Debugged gameplay, ensured smooth rendering and sound integration.  
-5. **Version Control** → Managed updates and resolved merge conflicts using GitHub.  
+## 🎮 Controls
+
+- ⬆️ **Up Arrow** → Move up
+- ⬇️ **Down Arrow** → Move down
+- ⬅️ **Left Arrow** → Move left
+- ➡️ **Right Arrow** → Move right
+- 🔄 **R Key** → Restart after Game Over
+- 🖱️ **On-screen buttons** → Touch / mouse controls
+
+---
+
+## 🎯 Game Levels
+
+- 🟢 **Easy** → Slow speed and suitable for beginners.
+- 🟡 **Medium** → Normal speed for balanced gameplay.
+- 🔴 **Hard** → Fast speed for challenging gameplay.
 
 ---
 
 ## 🎯 Outcomes
-- A fully functional **Snake Game** with interactive controls.  
-- Enhanced understanding of **game loops, event handling, and rendering**.  
-- Improved skills in **Git workflow** (pull, commit, push, resolve conflicts).  
-- A polished **GitHub repository** with clear documentation.  
+
+- A fully functional **Snake Game** with interactive controls.
+- Enhanced understanding of **game loops, event handling, and rendering**.
+- Implemented **Easy, Medium, and Hard** game levels.
+- Added **score tracking and collision detection**.
+- Improved skills in **Git and GitHub workflow**.
+- Created a clear and well-documented **GitHub repository**.
 
 ---
 
-## 🚀 Getting Started
+## 🔮 Future Scope
 
-**1. Clone Repository**
-```bash
-git clone https://github.com/sandhiya-vasi/Snake_Game.git
-cd Snake_Game
+- 👥 **Multiplayer Mode** → Play with friends and compare scores.
+- 🏆 **High Score & Leaderboard** → Save high scores and display rankings.
+- 🎨 **Custom Themes & Skins** → Customize the snake, food, and game background.
+- 📱 **Mobile Optimization** → Improve touch controls for Android devices.
+- 🔊 **Sound & Music** → Add background music and interactive sound effects.
+- ⏸️ **Pause & Resume** → Add options to pause and continue the game.
+- 🤖 **AI Snake Mode** → Add an AI-controlled snake for challenging gameplay.
 
----
-
-**2. Install Dependencies**
-```bash
-pip install pygame
 
 ---
 
-**3. Run Project**
-```bash
-python snake_game.py
+## 🎯 Overall Result~90% Complete
+The project is well‑structured, functional, and presentation‑ready.
+Enhancements such as levels, sound effects, menus, and multiplayer options can move it closer to 100%.
 
 ---
 
-##🎮 Controls
-⬆️ Up Arrow → Move up
-⬇️ Down Arrow → Move down
-⬅️ Left Arrow → Move left
-➡️ Right Arrow → Move right
-🔄 R Key → Restart after Game Over
-🖱️ On‑screen buttons → Touch/mouse controls
-
----
-
-##🔮 Future Scope
-- Add multiple levels with increasing difficulty
-- Integrate sound effects and background music
-- Create a graphical menu for start, pause, and restart options
-- Implement multiplayer mode or AI‑controlled snake
-- Visualize scores with charts or dashboards
-
----
-
-##🎯 Overall Result
-~90% Complete
-The project is well‑structured, functional, and presentation‑ready.Enhancements such as levels, sound effects, menus, and multiplayer options can move it closer to 100%.
-
----
-
-##✅ Conclusion
+## ✅ Conclusion
 This project was a valuable learning experience in Python game development.
 It helped apply theoretical knowledge into practice, improve debugging skills, and understand how to organize projects for professional presentation.
 The Snake Game is not just a fun project — it’s a stepping stone toward building more complex applications in AI/ML and Data Science.
