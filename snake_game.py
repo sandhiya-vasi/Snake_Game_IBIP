@@ -533,14 +533,6 @@ while running:
             "PLAY AGAIN",
             True,
             WHITE
-        )
-
-        screen.blit(
-            play_text,
-            (
-                PLAY_AGAIN.centerx -
-                play_text.get_width() // 2,
-
                 PLAY_AGAIN.centery -
                 play_text.get_height() // 2
             )
