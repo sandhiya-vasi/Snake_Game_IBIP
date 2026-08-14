@@ -215,6 +215,7 @@ def change_direction(new_direction):
 def draw_button(rect, text, selected=False):
 
     if selected:
+        
 
         color = GREEN
 
