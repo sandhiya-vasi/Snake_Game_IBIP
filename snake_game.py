@@ -215,7 +215,6 @@ def change_direction(new_direction):
 def draw_button(rect, text, selected=False):
 
     if selected:
-        
 
         color = GREEN
 
@@ -940,32 +939,6 @@ while running:
 
             play_text = button_font.render(
                 "PLAY AGAIN",
-                True,
-                WHITE
-            )
-
-            screen.blit(
-                play_text,
-                (
-                    PLAY_AGAIN.centerx -
-                    play_text.get_width() // 2,
-
-                    PLAY_AGAIN.centery -
-                    play_text.get_height() // 2
-                )
-            )
-
-            # Exit after Game Over
-
-            pygame.draw.rect(
-                screen,
-                RED,
-                EXIT_OVER,
-                border_radius=18
-            )
-
-            exit_over_text = button_font.render(
-                "EXIT",
                 True,
                 WHITE
             )
