@@ -944,6 +944,32 @@ while running:
             )
 
             screen.blit(
+                play_text,
+                (
+                    PLAY_AGAIN.centerx -
+                    play_text.get_width() // 2,
+
+                    PLAY_AGAIN.centery -
+                    play_text.get_height() // 2
+                )
+            )
+
+            # Exit after Game Over
+
+            pygame.draw.rect(
+                screen,
+                RED,
+                EXIT_OVER,
+                border_radius=18
+            )
+
+            exit_over_text = button_font.render(
+                "EXIT",
+                True,
+                WHITE
+            )
+
+            screen.blit(
                 exit_over_text,
                 (
                     EXIT_OVER.centerx -
